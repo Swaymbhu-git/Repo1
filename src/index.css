@@ -1,0 +1,152 @@
+body {
+  background: linear-gradient(135deg, #8059aa, #2575fc);
+  font-family: 'Arial', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Use min-height to ensure the body spans at least the full viewport */
+  margin: 0; /* Remove default margins to prevent overflow issues */
+  padding: 0; /* Remove default padding */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.app {
+  width: 90%;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #fce7dd !important;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin: 20px auto; /* Add margin to avoid content being cut off at the top */
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: raleway;
+}
+
+.section {
+  padding: 20px;
+  background: linear-gradient(135deg, #8059aa, #2575fc);
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+  font-family: solway;
+}
+
+.section h2 {
+  font-size: 1.8rem;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.section p {
+  font-size: 1.3rem;
+  color: white;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+input[type="file"] {
+  font-size: 1rem;
+  margin: 10px 0;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  background: #fce7dd;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="file"]:hover {
+  background: linear-gradient(135deg, #f89177, #feb47b);
+}
+
+button {
+  display: inline-block;
+  margin: 10px 10px;
+  padding: 12px 18px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #feb47b, #ff7e5f);
+}
+
+p {
+  font-size: 1rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .app {
+    width: 95%;
+    padding: 18px;
+  }
+
+  h1 {
+    font-size: 2.2em;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+
+  button {
+    padding: 0.7em 1.3em;
+    font-size: 0.95em;
+  }
+}
+
+@media (max-width: 600px) {
+  .app {
+    width: 95%;
+    padding: 16px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  button {
+    padding: 0.7em 1.2em;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 500px) {
+  .app {
+    width: 95%;
+    padding: 14px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  p {
+    font-size: 0.85rem;
+  }
+
+  button {
+    padding: 0.6em 1em;
+    font-size: 0.85em;
+  }
+}
